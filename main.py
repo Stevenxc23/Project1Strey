@@ -110,3 +110,13 @@ def dict_json():
         "curso": "Python"
     }
     return json.loads(json.dumps(diccionario))
+
+app = FastAPI(
+        title="API de Programación Agéntica - EPII Diurno",
+        description="Elaborado por Steven Rey",
+        version="1.0.0.",
+        contact={
+                "name": "Steven Rey",
+                "email": "Stevenalex0810@gmail.com",
+        }
+)
